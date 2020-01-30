@@ -1,0 +1,78 @@
+body{
+
+	/*background-color:  rgb(28,20,39); i like this combination*/
+	background-color: white;
+}
+
+a:link{
+	color: black;
+}
+
+a:hover{
+	color:hotpink;
+}
+
+.navbar{
+	background-color: white;
+	color: black;
+}
+
+
+
+.navbar button[type=submit]{
+	float: left;
+	color:black;
+	height: 29px;
+
+}
+
+
+
+
+@media (max-width: 767px) {
+	/* Only mobile css */
+	#nav-items{
+		font-size: 3vw;
+
+	}
+
+	#site-logo{
+		display: none;
+	}
+
+	.navbar input[type=text] {
+		float: left;
+		margin-right: auto;
+		font-size: 17px;
+		border: 1px solid #ccc;
+		width: 35vw;
+		height: 29px;
+
+	}
+	#search-form{
+		margin-right: auto;
+	}
+
+}
+
+@media (min-width: 768px){
+	/*Only desktop css */
+	#site-logo-m{
+		display: none;
+	}
+
+
+	.navbar input[type=text] {
+		float: left;
+		margin-right: auto;
+		font-size: 17px;
+		border: 1px solid #ccc;
+		width: 25vw;
+
+	}
+	#search-form{
+		margin-right: auto;
+		margin-left: 10vw;
+	}
+
+}
